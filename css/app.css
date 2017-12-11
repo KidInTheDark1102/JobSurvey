@@ -1,0 +1,82 @@
+html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Raleway', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .top-right {
+                position: absolute;
+                right: 10px;
+                top: 18px;
+            }
+
+            .content {
+                text-align: center;
+            }
+
+            .title {
+                font-size: 84px;
+            }
+
+            .links > a {
+                color: #636b6f;
+                padding: 0 25px;
+                font-size: 12px;
+                font-weight: 600;
+                letter-spacing: .1rem;
+                text-decoration: none;
+                text-transform: uppercase;
+            }
+
+            .m-b-md {
+                margin-bottom: 30px;
+            }
+
+            .sv_prev_btn , .sv_next_btn{
+                display: inline-block;
+                vertical-align: middle;
+                margin: 0 0 1rem 0;
+                font-family: inherit;
+                padding: 0.85em 1em;
+                border: 1px solid transparent;
+                border-radius: 10px;
+                transition: background-color 0.25s ease-out, color 0.25s ease-out;
+                font-size: 0.9rem;
+                line-height: 1;
+                text-align: center;
+                cursor: pointer;
+                background-color: #e64698;
+                color: #fefefe;
+            }
+
+            .btn-green {
+                background-color: #1ab394;
+                color: #fff;
+                border-radius: 3px;
+              }
+              .btn-green:hover, .btn-green:focus {
+                  background-color: #18a689;
+                  color: #fff;
+              }
+              .panel-footer {
+                  padding: 0 15px;
+                  border:none;
+                  text-align: right;
+                  background-color: #fff;
+              }
